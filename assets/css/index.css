@@ -1,0 +1,224 @@
+/*font*/
+@font-face {
+	font-family: "Suisse Black";
+	src: url('../fonts/SuisseIntl-Black.otf');
+}
+
+@font-face {
+	font-family: "Suisse Light";
+	src: url('../fonts/SuisseIntl-Light.otf');
+}
+
+@font-face {
+	font-family: "Suisse Regular";
+	src: url('../fonts/SuisseIntl-Regular.otf');
+}
+
+@font-face {
+	font-family: "Suisse Bold";
+	src: url('../fonts/SuisseIntl-Bold.otf');
+}
+
+@font-face {
+	font-family: "Suisse Book";
+	src: url('../fonts/SuisseIntl-Book.otf');
+}
+
+@font-face {
+	font-family: "Suisse Medium";
+	src: url('../fonts/SuisseIntl-Medium.otf');
+}
+
+html *{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+/*scroll bar css*/
+
+::-webkit-scrollbar {
+ display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display: none;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+   display: none;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+ display: none;
+}
+
+
+body{
+	background: black;
+}
+
+
+/*assets*/
+
+.text-hero{
+	font-family: Suisse
+
+}
+
+
+/*header section /////////*/
+header{
+	padding: 40px 110px 0px 110px;
+	width: 96%;
+	display: flex;
+	justify-content: space-between;
+
+	position: fixed;
+}
+
+.header-nav-left{
+	font-family: Suisse Bold;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+.header-nav-left span{
+	font-family: Suisse Regular;
+}
+
+.nav a{
+	font-family: Suisse Light;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 20px;
+	/* identical to box height */
+	margin-right: 50px;
+	color: #FFFFFF;
+}
+
+.nav a:last-child{
+	margin-right: 0px;
+}
+
+
+/*home-hero ///////////*/
+.home-hero{
+	padding: 40px 110px 0px 110px;
+	height: 85vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home-hero p{
+	font-family: Suisse Light;
+	font-weight: 300;
+	font-size: 80px;
+	line-height: 120%;
+	/* or 84px */
+	color: #FFFFFF;
+}
+
+.home-hero span:nth-child(1){
+	font-family: Suisse Regular;
+}
+
+.home-hero span:nth-child(2){
+	box-shadow: inset 0 -40px 0 #DB4CFF;
+}
+
+/*main ///////////////////////////*/
+main{
+}
+
+/*video section*/
+.video-home-hero{
+	width: 100%;
+	height: 80vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 200px;
+}
+
+.video-hero-container {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;align-items: center;
+	overflow: hidden;
+}
+
+.video-hero-container video{
+	height: auto;
+	width: 100%;
+}
+
+.video-home-hero img{
+	width: 7%;
+	transform: translateY(50%);
+	bottom: 0;
+	position: absolute;
+}
+
+
+/*text recent portfolio//////////////////////*/
+.recent-portfolio-text{
+	display: flex;
+	padding: 0px 110px 200px 110px;
+	width: 100%;
+	justify-content: space-between;
+	
+}
+
+.recent-title{
+	font-family: Suisse Regular;
+	font-weight: 300;
+	font-size: 45px;
+	line-height: 138.1%;
+	color: #FFFFFF;
+	width: 30%;
+}
+
+.recent-text{
+	font-family: Suisse light;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 160.1%;
+	/* or 35px */
+	color: #FFFFFF;
+	width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
