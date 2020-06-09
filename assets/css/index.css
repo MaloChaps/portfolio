@@ -1,3 +1,25 @@
+
+@font-face {
+	font-family: "Suisse Regular";
+	src: url('../fonts/SuisseIntl-Regular.otf');
+}
+
+@font-face {
+	font-family: "Suisse Bold";
+	src: url('../fonts/SuisseIntl-Bold.otf');
+}
+
+@font-face {
+	font-family: "Suisse Book";
+	src: url('../fonts/SuisseIntl-Book.otf');
+}
+
+@font-face {
+	font-family: "Suisse Medium";
+	src: url('../fonts/SuisseIntl-Medium.otf');
+}
+
+
 /*header section /////////*/
 header{
 	padding: 40px 110px 0px 110px;
