@@ -19,6 +19,11 @@
 	src: url('../fonts/SuisseIntl-Medium.otf');
 }
 
+@font-face {
+	font-family: "Suisse light";
+	src: url('../fonts/SuisseIntl-Light.otf');
+}
+
 html *{
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
