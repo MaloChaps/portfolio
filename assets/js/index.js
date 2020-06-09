@@ -35,3 +35,5 @@ sr.reveal('.box-content', {
     distance: "150px",
     origin: "bottom"
 });
+
+
