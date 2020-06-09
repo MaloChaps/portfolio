@@ -1,0 +1,55 @@
+
+@font-face {
+	font-family: "Suisse Regular";
+	src: url('../fonts/SuisseIntl-Regular.otf');
+}
+
+@font-face {
+	font-family: "Suisse Bold";
+	src: url('../fonts/SuisseIntl-Bold.otf');
+}
+
+@font-face {
+	font-family: "Suisse Book";
+	src: url('../fonts/SuisseIntl-Book.otf');
+}
+
+@font-face {
+	font-family: "Suisse Medium";
+	src: url('../fonts/SuisseIntl-Medium.otf');
+}
+
+html *{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+/*scroll bar css*/
+
+::-webkit-scrollbar {
+ display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display: none;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+   display: none;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+ display: none;
+}
+
+
+body{
+	background: black;
+	scroll-behavior: smooth;
+}
