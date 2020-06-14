@@ -1,0 +1,245 @@
+/*composant*/
+audio, canvas, iframe, img, svg, video {
+    max-width: 100%;
+    vertical-align: middle;
+}
+/*style font*/
+.title-regular{
+	font-family: Suisse Regular;
+}
+
+/*title hero*/
+.title-hero{
+	height: 70vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 0px 110px 0px 110px;
+}
+
+.title-hero p{
+	font-family: Suisse light;
+	font-weight: normal;
+	font-size: 45px;
+	line-height: 150%;
+	/* or 67px */
+	color: #000000;
+}
+
+/*images-full-subtitle-head*/
+
+.image-full-subtitle-head{
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.image-full-subtitle-head img{
+	 width: 100%;
+    height: 100%;
+	 object-fit: cover;
+    object-position: center center;
+}
+
+
+/*image-carre-middle-full*/
+
+.image-carre-middle-full{
+	width: 100%;
+	display: flex;
+	overflow: hidden;
+}
+
+.image-carre-middle-full div{
+	width: 100%;
+}
+
+.image-carre-middle-full div img{
+	width: 100%;
+    height: 100%;
+	 object-fit: cover;
+    object-position: center center;
+}
+
+/*text 2*/
+.text-2-left{
+	width: 100%;
+	padding: 200px 110px 200px 110px;
+
+	display: flex;
+	justify-content: flex-start;
+}
+
+.text-2-left{
+	width: 50%;
+	font-family: Suisse light;
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 138.1%;
+	/* or 55px */
+
+	color: #000000;
+}
+
+/*text-3*/
+.text-3-left{
+	width: 100%;
+	padding: 200px 110px 200px 110px;
+
+	display: flex;
+	justify-content: flex-start;
+}
+
+.text-3-left p{
+	width: 75%;
+	font-family: Suisse light;
+font-weight: 300;
+font-size: 40px;
+line-height: 138.1%;
+/* or 55px */
+
+color: #000000;
+
+}
+
+.text-3-right{
+	width: 100%;
+	padding: 200px 110px 200px 110px;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.text-3-right p{
+	width: 75%;
+	font-family: Suisse light;
+font-weight: 300;
+font-size: 40px;
+line-height: 138.1%;
+/* or 55px */
+color: #000000;
+
+}
+
+/*vimeo-full*/
+
+.vimeo-full{
+	width: 100;
+	height: 80vh;
+
+	position: relative;
+    padding-bottom: 56.25%; /* ratio 16/9 */
+    height: 0; overflow: hidden;
+    clear: both;
+}
+
+.vimeo-full iframe,
+.vimeo-full object,
+.vimeo-full embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*image full*/
+.image-full{
+	width: 100%;
+
+	display: flex;justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.image-full img{
+	width: 100%;
+    height: 100%;
+	 object-fit: cover;
+    object-position: center center;
+}
+
+
+
+/*list grid text info*/
+
+.list-grid-text-info{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 0px 110px 0px 110px;
+	justify-content: space-between;
+}
+
+
+.list-grid-text-info p{
+	font-family: Suisse Light;
+font-weight: 500;
+font-size: 22px;
+line-height: 160.1%;
+/* or 35px */
+margin-bottom: 100px;
+width: 40%;
+color: #000000;
+}
+
+
+
+/*responsive asset */
+@media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
+
+/*title hero*/
+.title-hero p {
+    font-family: Suisse light;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.text-3-right p {
+    width: 100%;
+    font-family: Suisse light;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 138.1%;
+    color: #000000;
+}
+
+.text-2-left {
+    width: 80%;
+    font-family: Suisse light;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 138.1%;
+    color: #000000;
+}
+
+.list-grid-text-info p {
+    font-family: Suisse Light;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 160.1%;
+    margin-bottom: 100px;
+    width: 100%;
+    color: #000000;
+}
+.list-grid-text-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 110px 0px 110px;
+    justify-content: space-between;
+}
+
+ }
+
+
+
+
