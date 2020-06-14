@@ -10,13 +10,12 @@ audio, canvas, iframe, img, svg, video {
 
 /*title hero*/
 .title-hero{
-	height: 70vh;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
-	padding: 0px 110px 0px 110px;
+	padding: 200px 110px 200px 110px;
 }
 
 .title-hero p{

@@ -1,4 +1,3 @@
-
 @font-face {
 	font-family: "Suisse Regular";
 	src: url('../fonts/SuisseIntl-Regular.otf');
@@ -107,6 +106,7 @@ header{
 .nav a:last-child{
 	margin-right: 0px;
 }
+
 
 
 /*footer section //////////////////////*/
