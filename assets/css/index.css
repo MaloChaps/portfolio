@@ -188,6 +188,69 @@ main{
 }
 
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
+
+.home-hero p {
+    font-family: Suisse Light;
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.video-hero-container video {
+    height: auto;
+    width: 100%;
+    transform: scale(3.5);
+}
+
+.video-home-hero img {
+    width: 17%;
+    transform: translateY(50%);
+    bottom: 0;
+    position: absolute;
+}
+
+.recent-portfolio-text {
+	flex-direction: column;
+}
+
+
+
+.recent-title {
+	width: 100%;
+	font-size: 65px;
+    margin-bottom: 100px;
+
+}
+.recent-text{
+	width: 100%;
+	font-size: 32px;
+}
+
+.recent-project{
+	flex-direction: column;
+}
+
+.box-content{
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.title-project {
+    font-family: Suisse Light;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 138.1%;
+    color: #FFFFFF;
+}
+
+.subtitle-project {
+    font-size: 40px;
+}
+
+}
+
 
 
 
