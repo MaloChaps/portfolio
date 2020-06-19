@@ -23,7 +23,6 @@ color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 90vh;
 
 	overflow: hidden;
 	margin-bottom: 200px;
@@ -141,6 +140,82 @@ color: white;
 }
 
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
+.hero-home p {
+    font-family: Suisse Light;
+    font-weight: 300;
+    font-size: 75px;
+    line-height: 150%;
+    color: white;
+}
 
+.col-about-content {
+    padding: 40px 110px 0px 110px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.col-about-content p:first-child {
+    font-family: Suisse Light;
+    font-weight: 300;
+    font-size: 75px;
+    line-height: 138.1%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.col-about-content p:last-child {
+    font-family: Suisse Light;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.freelance-contact p {
+    font-family: Suisse Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 75px;
+    line-height: 120%;
+    width: 90%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 70px;
+}
+
+.freelance-contact img {
+    width: 30%;
+    margin-bottom: 70px;
+}
+
+.freelance-contact a {
+    background: black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 25px 60px 25px 60px;
+    font-family: Suisse Light;
+    font-size: 40px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.freelance-contact{
+	    padding: 100px 75px 100px 75px;
+}
+
+}
 
 
