@@ -70,6 +70,13 @@ sr.reveal('.image-full', {
     origin: "bottom"
 });
 
+sr.reveal('.img-texte-full', {
+     delay: 0.5,
+    duration: 2000,
+    distance: "100px",
+    origin: "bottom"
+});
+
 
 
 
