@@ -3,15 +3,15 @@ const sr = ScrollReveal();
 
 // <!-- Hero header image -->
 sr.reveal('.h2-black', {
-	 delay: 1,
-    duration: 1000,
+	 delay: 500,
+    duration: 900,
     distance: "100px",
     origin: "bottom"
 });
 
 sr.reveal('.h1-black', {
-	 delay: 1,
-    duration: 1000,
+	 delay: 500,
+    duration: 900,
     distance: "100px",
     origin: "bottom"
 });
@@ -21,66 +21,66 @@ sr.reveal('.h1-black', {
 
 
 sr.reveal('.h1-white', {
-	 delay: 1,
-    duration: 1000,
+	 delay: 500,
+    duration: 900,
     distance: "100px",
     origin: "bottom"
 });
 
 sr.reveal('.h3-black', {
-	 delay: 1,
-    duration: 1000,
+	 delay: 500,
+    duration: 900,
     distance: "100px",
     origin: "bottom"
 });
 
 sr.reveal('.para-primary-black', {
-	 delay: 1,
-    duration: 1000,
+	 delay: 500,
+    duration: 900,
     distance: "100px",
     origin: "bottom"
 });
 
 
 sr.reveal('.para-secondary-black', {
-	 delay: 1,
-    duration: 1000,
+	 delay: 500,
+    duration: 900,
     distance: "100px",
     origin: "bottom"
 });
 
 sr.reveal('.home-video-section', {
-	 delay: 1.2,
-    duration: 1000,
-    distance: "200px",
+	 delay: 500,
+    duration: 900,
+    distance: "500px",
     origin: "bottom"
 });
 
 sr.reveal('.home-video-banner', {
-	 delay: 1,
-    duration: 1000,
+	 delay: 500,
+    duration: 900,
     distance: "100px",
     origin: "bottom"
 });
 
 sr.reveal('.skills-section', {
-	 delay: 1,
-    duration: 1000,
-    distance: "200px",
+	 delay: 500,
+    duration: 900,
+    distance: "500px",
     origin: "bottom"
 });
 
 
 sr.reveal('.work-box-section', {
-	delay: 1,
+	delay: 500,
     duration: 3000,
     distance: "250px",
     origin: "bottom"
 });
 
 sr.reveal('.skills-sentence-box', {
-	delay: 1,
-    duration: 2000,
+	delay: 500,
+    duration: 5000,
     distance: "100px",
     origin: "bottom"
 });
