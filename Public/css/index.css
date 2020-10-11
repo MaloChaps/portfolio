@@ -1,0 +1,280 @@
+/*VAR PADDING*/
+:root{
+	--padding-primary: 0px 110px 0px 110px;
+	--padding-bottom-section: 170px;
+}
+
+.main-content{
+}
+
+/*Header section*/
+.header{
+	width: 100%;
+	padding: var(--padding-primary);
+
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-bottom: 200px;
+}
+
+.header a{
+	margin-right: 40px;
+}
+
+.header a:last-child{
+	margin-right: 0px;
+	color: white;
+	background: var(--black-primary);
+	padding: 11px 24px 11px 24px;
+	border-radius: 5px;
+}
+
+
+/*Home-section*/
+.home-section{
+	width: 100%;
+	padding: var(--padding-primary);
+
+	padding-bottom: var(--padding-bottom-section);
+}
+
+.home-section h2{
+	padding-bottom: 50px;
+}
+
+.home-section video{
+	width: 100%;
+}
+
+.home-video-section{
+	position: relative;
+	width: 100%;
+
+	text-align: center;
+	display: flex;
+	justify-content: center;
+
+}
+
+.home-video-banner{
+	width: 90%;
+	background: var(--grey-light);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 80px;
+	position: absolute;
+	bottom: -50px;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+/*presentation-section*/
+
+.presentation-section{
+	padding: var(--padding-primary);
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+	padding-bottom: var(--padding-bottom-section);
+}
+
+.presentation-section h3{
+	width: 35%;
+}
+
+.presentation-section h4{
+	width: 45%;
+}
+
+
+/*Recent work section*/
+.work-section{
+	padding: var(--padding-primary);
+	padding-bottom: var(--padding-bottom-section);
+}
+
+.work-introduction{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-bottom: 45px;
+}
+
+.work-box-section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.work-box-rectangular{
+	transition: 0.5s ease;
+	width: 100%;
+	height: 55vh;
+	overflow: hidden;
+	border-radius: 5px;
+	margin: 15px 0px 15px 0px; 
+}
+
+.work-box-rectangular img{
+	min-height: 100%;
+	min-width: 100%;
+	object-fit: cover;
+	transition: 0.5s ease;
+}
+
+.work-box-square{
+	transition: 0.5s ease;
+	width: 49%;
+	height: 55vh;
+	overflow: hidden;
+	border-radius: 5px;
+
+	margin: 15px 0px 15px 0px; 
+}
+
+.work-box-square img{
+	min-height: 100%;
+	min-width: 100%;
+	object-fit: cover;
+	transition: 0.5s ease;
+}
+
+.work-box-rectangular:hover{
+	transition: 0.5s ease;
+	transform: scale(0.988);
+}
+.work-box-rectangular:hover img{
+	transition: 0.5s ease;
+	transform: scale(1.08);
+}
+
+.work-box-square:hover{
+	transition: 0.5s ease;
+	transform: scale(0.988);
+}
+.work-box-square:hover img{
+	transition: 0.5s ease;
+	transform: scale(1.08);
+}
+
+
+/*Skills section */
+
+.skills-section{
+	background: black;
+	padding: var(--padding-primary);
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.skills-introduction{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 90px;
+}
+
+.skills-sentence{	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.skills-sentence-box{
+	border-left: var(--white-primary) 0.7px solid;
+	padding: 15px 0px 15px 50px;
+	width: 30%;
+
+	margin: 50px 0px 50px 0px;
+}
+
+.skills-sentence-box h6{
+	padding-bottom: 30px;
+}
+
+
+/*Freelance section*/
+.freelance-section{
+	width: 100%;
+	padding: var(--padding-primary);
+}
+
+.freelance-content{
+	background: #FAFAFA;
+	border-radius: 5px;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	padding: 100px 250px;
+
+	margin: 125px 0px 125px 0px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.freelance-content h6{
+	width: 60%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.freelance-content svg{
+	margin-bottom: 40px;
+}
+
+.freelance-content a{
+	font-family: Suisse Regular;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 120%;
+	color: var(--white-primary);
+	padding: 15px 23px 15px 23px;
+	background: black;
+	border-radius: 5px;
+}
+
+.freelance-content a:hover{
+	text-decoration: underline;
+}
+
+
+/*footer section*/
+.footer-section{
+	padding: var(--padding-primary);
+	background: black;
+	color: var(--white-primary);
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.footer-middle{
+	display: flex;
+}
+
+
+.footer-middle-clm1{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-middle-clm2{
+	display: flex;
+	flex-direction: column;
+	margin-left: 230px
+}
+
+.footer-middle-clm3{
+	display: flex;
+	flex-direction: column;
+	margin-left: 230px
+}
+
+
+
+
+
