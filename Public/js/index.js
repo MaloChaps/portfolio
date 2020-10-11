@@ -3,14 +3,14 @@ const sr = ScrollReveal();
 
 // <!-- Hero header image -->
 sr.reveal('.h2-black', {
-	 delay: 0,
+	 delay: 1,
     duration: 1000,
     distance: "100px",
     origin: "bottom"
 });
 
 sr.reveal('.h1-black', {
-	 delay: 0,
+	 delay: 1,
     duration: 1000,
     distance: "100px",
     origin: "bottom"
@@ -21,21 +21,21 @@ sr.reveal('.h1-black', {
 
 
 sr.reveal('.h1-white', {
-	 delay: 0,
+	 delay: 1,
     duration: 1000,
     distance: "100px",
     origin: "bottom"
 });
 
 sr.reveal('.h3-black', {
-	 delay: 0,
+	 delay: 1,
     duration: 1000,
     distance: "100px",
     origin: "bottom"
 });
 
 sr.reveal('.para-primary-black', {
-	 delay: 0,
+	 delay: 1,
     duration: 1000,
     distance: "100px",
     origin: "bottom"
@@ -43,21 +43,21 @@ sr.reveal('.para-primary-black', {
 
 
 sr.reveal('.para-secondary-black', {
-	 delay: 0,
+	 delay: 1,
     duration: 1000,
     distance: "100px",
     origin: "bottom"
 });
 
 sr.reveal('.home-video-section', {
-	 delay: 0.2,
+	 delay: 1.2,
     duration: 1000,
     distance: "200px",
     origin: "bottom"
 });
 
 sr.reveal('.home-video-banner', {
-	 delay: 0,
+	 delay: 1,
     duration: 1000,
     distance: "100px",
     origin: "bottom"
@@ -79,7 +79,7 @@ sr.reveal('.work-box-section', {
 });
 
 sr.reveal('.skills-sentence-box', {
-	delay: 2,
+	delay: 1,
     duration: 2000,
     distance: "100px",
     origin: "bottom"
