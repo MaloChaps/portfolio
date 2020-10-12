@@ -256,10 +256,10 @@ body{
 
 
 .banner-text-primary-black{
-	font-family: Suisse Light;
+	font-family: Suisse Regular;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 140.1%;
 	/* identical to box height, or 17px */
 
@@ -270,10 +270,10 @@ body{
 }
 
 .banner-text-primary-white{
-	font-family: Suisse Light;
+	font-family: Suisse Regular;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 140.1%;
 	/* identical to box height, or 17px */
 
