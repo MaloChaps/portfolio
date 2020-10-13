@@ -77,9 +77,14 @@
 			<h2 class="h2-black">I’m a designer currently playing with UI&UX at Blanc Petrole. I will be graduating Bachelor in spring 2021 of ECV Digital Nantes. Bye haters!</h2>
 
 			<div class="home-video-section">
-				<a class="img-video-section" href="https://vimeo.com/406496568" target="_blanck">
+				<!-- <a class="img-video-section" href="https://vimeo.com/406496568" target="_blanck">
 					<img src="Public/source/videos/posters/poster-video.jpg" width="100%;" alt="ici une image extrait du showreel de blanc petrole">
-				</a>
+				</a> -->
+
+
+				<video id="video" poster="Public/source/videos/posters/poster-video.jpg">
+					<source src="Public/source/videos/BP-Showreel_min.mp4" type="video/mp4">
+				</video>
 	
 				<div class="home-video-banner">
 					<p class="banner-text-primary-black">Prototyping</p>
@@ -231,6 +236,10 @@
 		$(window).load(function() {
     	 $(".loader-section").fadeOut("1000"); 
  		});
+
+ 		$('#video').click(function(){
+		   document.getElementById('video').play();
+		});
 	</script>
 	
 </body>
