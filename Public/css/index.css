@@ -61,14 +61,16 @@
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	        pointer-events: none;
 }
 
 .home-video-section-iframe{
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
-
+	pointer-events: none;
+}
+.home-video-section-iframe > iframe{
+	pointer-events: none;
 }
 
 .home-video-section-iframe iframe{
@@ -87,7 +89,7 @@
 	cursor: url(../source/play.svg), pointer; 
 }
 
-.home-video-section img{
+.home-video-section > img{
 	width: 100%;
 	min-width: 100%;
 	min-height: 100%;
@@ -115,6 +117,7 @@
 	        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
 	        z-index: 200;
 }
+
 
 .banner-text-primary-black:hover{
 	text-decoration: underline;
